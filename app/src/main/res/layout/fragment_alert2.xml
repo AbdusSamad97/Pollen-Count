@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:orientation="vertical"
+    >
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:shadowColor="@color/blue"
+        android:shadowRadius="2.0"
+        android:drawablePadding="5dp"
+        android:textSize="20sp"
+        android:singleLine="true"
+        android:layout_margin="15dp"
+        android:textColor="@color/colorBlack"
+        android:focusable="false"
+        android:background="@drawable/backwithborder"
+        android:padding="5dp"
+        android:text="- Set Your Alert Notification -"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/backwithborder"
+        android:orientation="vertical"
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorWhite"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/allergy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:shadowColor="@color/blue"
+                android:drawableRight="@android:drawable/arrow_down_float"
+                android:shadowRadius="2.0"
+                android:drawablePadding="5dp"
+                android:textSize="20sp"
+                android:singleLine="true"
+                android:layout_margin="15dp"
+                android:textColor="@color/colorBlack"
+                android:focusable="false"
+                android:background="@drawable/backwithborder"
+                android:padding="5dp"
+                android:text="- Select Allergy -"/>
+
+            <RadioGroup
+                android:id="@+id/rad"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp">
+
+                <RadioButton
+                    android:id="@+id/Extreme"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/red_border"
+                    android:text="Extreme"
+                    android:textSize="20dp" />
+
+                <RadioButton
+                    android:id="@+id/High"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/orangeborder"
+                    android:text="High"
+                    android:textSize="20dp" />
+
+                <RadioButton
+                    android:id="@+id/Moderate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/yellowborder"
+                    android:text="Moderate"
+                    android:textSize="20dp" />
+
+                <RadioButton
+                    android:id="@+id/Low"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/greenborder"
+                    android:text="Low"
+                    android:textSize="20dp" />
+
+                <RadioButton
+                    android:id="@+id/None"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/backwithborder"
+                    android:focusedByDefault="true"
+                    android:text="None"
+                    android:textSize="20dp" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/save"
+            android:layout_width="match_parent"
+            android:layout_margin="20dp"
+            android:layout_height="wrap_content"
+            android:text="Save" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

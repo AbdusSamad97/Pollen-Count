@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "674617821116",
+    "firebase_url": "https://pollen-monitoring.firebaseio.com",
+    "project_id": "pollen-monitoring",
+    "storage_bucket": "pollen-monitoring.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:674617821116:android:0e73281b13195ddfd8cdb9",
+        "android_client_info": {
+          "package_name": "com.example.pollenmonitoring"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "674617821116-ljfru9ce9r7uf505p11a6n3a6v3p9sm4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.pollenmonitoring",
+            "certificate_hash": "c988256d3842f637efc3dde3d1b661e48268c76b"
+          }
+        },
+        {
+          "client_id": "674617821116-qnbmebbpbi3l5un2ea7e3nd94u75rbd7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtO0LMBWP_ssswFbb3RsC7ItSVdGY1n1c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "674617821116-qnbmebbpbi3l5un2ea7e3nd94u75rbd7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
